@@ -2,7 +2,7 @@
 
 import React from 'react'
 
-function AnimatedButton01() {
+function TwistedButton() {
 
   const fullWord = 'Subscribe'
   const word = fullWord.split('')
@@ -44,4 +44,4 @@ function AnimatedButton01() {
 
 }
 
-export default AnimatedButton01
+export default TwistedButton

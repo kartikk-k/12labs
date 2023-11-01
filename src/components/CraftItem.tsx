@@ -49,7 +49,7 @@ function CraftItem({ data }: { data: typeof crafts[0] }) {
                             <span>Code</span>
                         </div>
 
-                        <Link href='' className='underline text-primary font-medium'>github.com/...</Link>
+                        <Link href={data.github} className='underline text-primary font-medium'>github.com/...</Link>
                     </div>
                 </div>
 
