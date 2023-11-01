@@ -8,7 +8,7 @@ const crafts = [
         description: 'Animated button with text twist animation.',
         image: '/static/crafts/twisted-button.svg',
         link: '/crafts/twisted-button',
-        github: githubUrl + 'TwistedButton.tsx',
+        github: githubUrl + '/TwistedButton.tsx',
         component: TwistedButton
     },
     // {
