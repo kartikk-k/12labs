@@ -25,7 +25,7 @@ function CraftItem({ data }: { data: typeof crafts[0] }) {
         <div className='space-y-6'>
             <div className='border rounded-lg overflow-hidden'>
                 {/* main component */}
-                <div className='bg-primary-background pattern py-10 flex items-center justify-center'>
+                <div className='bg-primary-background pattern py-10 min-h-[200px] flex items-center justify-center'>
                     {<data.component />}
                 </div>
 
